@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: 'Tahoma'
+}
+div{
+    border-top: 1px solid #DCDCDC;  
+    padding: 50px;
+    text-align: center;
+}
+img{
+    width: 200px;
+    box-shadow: 15px 13px 44px -8px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 15px 13px 44px -8px rgba(0,0,0,0.8);
+    -moz-box-shadow: 15px 13px 44px -8px rgba(0,0,0,0.8);
+}
+h1{
+    margin-top: 0;
+    color: darkred;
+    font-size: 40px;
+}
+h2{
+    color: darkred;
+    font-size: 25px;
+}
+h3{
+    color: darkred;
+    font-size: 24px;
+}
+p{
+    line-height: 28px;
+    width: 930px;
+    margin: 25px auto;
+}
+span{
+    font-weight: bold;
+}
+a {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #fa8900;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s; /* Adiciona uma transição suave */
+}
+
+a:hover {
+    background-color: #DCDCDC; /* Muda a cor de fundo ao passar o mouse */
+}
